@@ -396,3 +396,33 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# venv
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore Python byte code cache
+__pycache__
+
+# Ignore environment directory
+venv/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.bak
+*.swp
+*~
+
+# Ignore configuration files
+*.cfg
+*.ini
